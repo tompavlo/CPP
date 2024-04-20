@@ -55,7 +55,7 @@ void printIzolated(int graph[4][4], int size) {
                 }
             }
         }
-        if(counter<2) cout<<
+        if(counter<2);
     }
 
 }
