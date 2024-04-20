@@ -143,3 +143,4 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,c++,cmake
 /cmake-build-debug/Testing/
 /cmake-build-debug/
+/cmake-build-debug/
