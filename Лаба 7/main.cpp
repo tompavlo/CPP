@@ -52,6 +52,7 @@ double findAvgOfStack(){
     avg/=counter;
     return avg;
 }
+//Added some comment
 int main() {
     cout<<"Total amount of stacks:";
     int counter;
