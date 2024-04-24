@@ -1,4 +1,4 @@
-C:\Users\MSI\AppData\Local\JetBrains\CLion2024.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/cygdrive/c/Users/MSI/AppData/Local/Programs/CLion/bin/ninja/cygwin/x64/ninja.exe -G Ninja -S "/cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/Лаба 7/4" -B "/cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/Лаба 7/4/cmake-build-debug"
+C:\Users\MSI\AppData\Local\JetBrains\CLion2024.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/cygdrive/c/Users/MSI/AppData/Local/Programs/CLion/bin/ninja/cygwin/x64/ninja.exe -G Ninja -S "/cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/CPP/Лаба 7/4" -B "/cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/CPP/Лаба 7/4/cmake-build-debug"
 -- The C compiler identification is GNU 11.4.0
 -- The CXX compiler identification is GNU 11.4.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@ C:\Users\MSI\AppData\Local\JetBrains\CLion2024.1\cygwin_cmake\bin\cmake.exe -DCM
 -- Detecting CXX compile features - done
 -- Configuring done (1.9s)
 -- Generating done (0.0s)
--- Build files have been written to: /cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/Лаба 7/4/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/CPP/Лаба 7/4/cmake-build-debug

@@ -11,6 +11,6 @@ C:\Users\MSI\AppData\Local\JetBrains\CLion2024.1\cygwin_cmake\bin\cmake.exe -DCM
 -- Check for working CXX compiler: /usr/bin/c++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (1.9s)
+-- Configuring done (2.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /cygdrive/c/Users/MSI/Desktop/Clion/Структури даних та алгоритмів/CPP/Лаба 8/cmake-build-debug
