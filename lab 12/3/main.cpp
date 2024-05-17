@@ -161,8 +161,8 @@ int main() {
                 cout << "Input name for car to find: ";
                 string carFind;
                 getline(cin, carFind);
-                if (findByName(cars, carFind)) cout << "There is car with name " << carFind;
-                else cout << "There is no such car with name " << carFind;
+                if (findByName(cars, carFind)) cout << "There is car with name " << carFind<<endl;
+                else cout << "There is no such car with name " << carFind<<endl;
                 system("cmd.exe /c pause");
                 system("cmd.exe /c cls");
                 printMenu();
