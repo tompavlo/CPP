@@ -187,7 +187,7 @@ void runSortAndMeasure(void (*sortFunc)(int [], int), int array[], int size, str
     sortFunc(copy, size);
     auto end = high_resolution_clock::now();
     duration = duration_cast<microseconds>(end - start).count();
-    cout << sortName << " for n=" << size << " took " << duration << " microseconds" << endl;
+    cout << sortName << " for n=" << size << " - " << duration << " microseconds" << endl;
     delete[] copy;
 }
 
@@ -199,7 +199,7 @@ void runSortAndMeasure(void (*sortFunc)(int [], int, int), int array[], int size
     sortFunc(copy, 0, size - 1);
     auto end = high_resolution_clock::now();
     duration = duration_cast<microseconds>(end - start).count();
-    cout << sortName << " for n=" << size << " took " << duration << " microseconds" << endl;
+    cout << sortName << " for n=" << size << " - " << duration << " microseconds" << endl;
     delete[] copy;
 }
 
@@ -237,7 +237,6 @@ int main() {
     runSortAndMeasure(quicksort, array100, size100, "Quick Sort", durations[6][1]);
     runSortAndMeasure(mergeSort, array100, size100, "Merge Sort", durations[7][1]);
 
-    // Sort and measure for n = 1000
     cout << "\nSorting for n = 1000" << endl;
     runSortAndMeasure(bubbleSort, array1000, size1000, "Bubble Sort", durations[0][2]);
     runSortAndMeasure(insertionSort, array1000, size1000, "Insertion Sort", durations[1][2]);
@@ -273,8 +272,8 @@ int main() {
         }
 
         cout << "\nFor n=" << (sizeIdx == 0 ? 10 : sizeIdx == 1 ? 100 : 1000) << ":\n";
-        cout << "Best Algorithm: " << sortNames[bestIdx] << " with " << minDuration << " microseconds\n";
-        cout << "Worst Algorithm: " << sortNames[worstIdx] << " with " << maxDuration << " microseconds\n";
+        cout << "Best Algorithm: " << sortNames[bestIdx] << " : " << minDuration << " microseconds\n";
+        cout << "Worst Algorithm: " << sortNames[worstIdx] << " : " << maxDuration << " microseconds\n";
     }
 
     return 0;
